@@ -1,0 +1,87 @@
+[
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "internalType": "uint256",
+                "name": "ID",
+                "type": "uint256"
+            }
+        ],
+        "name": "NewEvent",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "Weight",
+                "type": "uint256"
+            },
+            {
+                "internalType": "string",
+                "name": "Name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "ProcessCode",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "ImageHash",
+                "type": "string"
+            }
+        ],
+        "name": "CreateProcess",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "processes",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "ID",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "Weight",
+                "type": "uint256"
+            },
+            {
+                "internalType": "string",
+                "name": "Name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "ProcessCode",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "ImageHash",
+                "type": "string"
+            },
+            {
+                "internalType": "address",
+                "name": "StaffAddress",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

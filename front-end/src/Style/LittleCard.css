@@ -1,0 +1,43 @@
+.littlecard-box{
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+.littlecard-box-r{
+    padding-left: 4px;
+}
+.littlecard-box-icon{
+    color: rgb(45, 49, 47);
+    animation-duration: 2s;
+    animation-name: ltct;
+}
+.littlecard-box-title{
+    font-size: larger;
+    color: black;
+    animation-duration: 2s;
+    animation-name: lttt;
+}
+.littlecard-box-content{
+    font-size: 14px;
+    color: rgb(45, 49, 47);
+    animation-duration: 2s;
+    animation-name: ltct;
+}
+@keyframes ltct {
+    from {
+        color: transparent;
+    }
+  
+    to {
+        color: rgb(45, 49, 47);
+    }
+}
+@keyframes lttt {
+    from {
+        color: transparent;
+    }
+  
+    to {
+        color: black;
+    }
+}

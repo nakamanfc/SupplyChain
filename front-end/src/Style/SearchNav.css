@@ -1,0 +1,39 @@
+.searchbar-container{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.searchbar-box{
+    display: flex;
+    background-image: url("https://images.pexels.com/photos/3571094/pexels-photo-3571094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    justify-content: center;
+    width: 100%
+}
+
+.searchbar-content{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 500px;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.searchbar-des-1{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.searchbar-des-2{
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    color: white;
+    width: 620px;
+    font-size: 50px;
+    font-weight:normal;
+    font-weight: bold;
+    margin-bottom: 40px;
+}

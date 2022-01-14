@@ -1,0 +1,32 @@
+.companystaff-container{
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 0px 200px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 1200px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.companystaff-container-id{
+    flex: 1;
+    text-align: center;
+}
+.companystaff-container-data{
+    flex: 2;
+    text-align: center;
+}
+.companystaff-container-address{
+    flex: 5;
+    text-align: center;
+}
+.companystaff-container-link{
+    flex: 1;
+    text-align: center;
+    color: blue;
+}
+.companystaff-container-link:hover{
+    cursor: pointer;
+}
+.companystaff-container-link:active{
+    color: blueviolet;
+}

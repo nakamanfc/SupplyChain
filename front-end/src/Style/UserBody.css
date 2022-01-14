@@ -1,0 +1,4 @@
+.userbody-container{
+    display: flex;
+    flex-direction: column;
+}

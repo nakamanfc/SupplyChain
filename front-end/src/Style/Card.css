@@ -1,0 +1,62 @@
+.Card-icon{
+    animation-duration: 2s;
+    animation-name: ci;
+    color: rgb(61, 61, 61);
+}
+.Card-title{
+    animation-duration: 2s;
+    animation-name: ct;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+}
+.Card-content{
+    animation-duration: 2s;
+    animation-name: cc;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-size: 16px;
+}
+@keyframes ci {
+    from {
+        color: transparent;
+    }
+  
+    to {
+        color: rgb(61, 61, 61);
+    }
+}
+@keyframes ct {
+    from {
+        color: transparent;
+        text-align: center;
+        font-size: 24px;
+    }
+  
+    to {
+        text-align: center;
+        font-size: 24px;
+        color: black;
+    }
+}
+@keyframes cc {
+    from {
+        color: transparent;
+        text-align: center;
+        font-size: 16px;
+    }
+  
+    to {
+        color: rgb(61, 61, 61);
+        text-align: center;
+        font-size: 16px;
+    }
+}
+.Card-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: 280px;
+    justify-content: space-around;
+}

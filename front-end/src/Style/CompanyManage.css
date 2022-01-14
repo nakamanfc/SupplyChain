@@ -1,0 +1,42 @@
+.companymanage-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.companymanage-title{
+    height: 100px;
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.companymanage-button{
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-size:30px;
+    font-weight: 500;
+    color: rgb(22,22,22);
+    width: 200px;
+    height: 60px;
+}
+.companymanage-button-active{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 0px 200px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size:30px;
+    font-weight: 500;
+    color: rgb(22,22,22);
+    width: fit-content;
+    width: 200px;
+    height: 60px;
+}
+.companymanage-button:hover{
+    cursor: pointer;
+}
+.companymanage-button-active{
+    cursor: pointer;
+}

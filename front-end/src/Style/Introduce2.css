@@ -1,0 +1,64 @@
+.Introduce2-box{
+    display: flex;
+    width: 1200px;
+    height: 550px;
+}
+.Introduce2-box-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 49, 47)
+}
+.Introduce2-box-right{
+    flex: 1.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 112, 111)
+}
+.Introduce2-box-right-back{
+    background-color: white;
+    height: fit-content;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 0px 200px 0 rgba(0, 0, 0, 0.1);
+    animation-duration: 2s;
+    animation-name: back;
+}
+.Introduce2-box-right-title{
+    height: 80px;
+    font-size:40px;
+    padding-top: 40px;
+    padding-left: 18px;
+    color: black;
+    animation-duration: 2s;
+    animation-name: title;
+}
+.Introduce2-box-right-content{
+    padding-left: 12px;
+    display: grid;
+    height: 300px;
+    grid-template-columns: auto auto;
+}
+@keyframes back {
+    from {
+        background-color: rgb(110, 112, 111);
+        box-shadow: none;
+    }
+  
+    to {
+        background-color: white;
+        box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 0px 200px 0 rgba(0, 0, 0, 0.1);
+    }
+}
+
+@keyframes title {
+    from {
+        color: rgb(110, 112, 111);
+    }
+  
+    to {
+        color: black;
+    }
+}

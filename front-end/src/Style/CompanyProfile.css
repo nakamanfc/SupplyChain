@@ -1,0 +1,26 @@
+.companyprofile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.companyprofile-wall{
+    background-color: #2b6f8a56;
+    box-shadow: 10px 10px 30px 90px #2b6f8a56;
+    width: 1200px;
+    height: 120px;
+}
+.companyprofile-avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.companyprofile-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 400px;
+    color: #535353;
+    border-bottom: 1px solid lightgrey;
+}

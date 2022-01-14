@@ -1,0 +1,38 @@
+.windowlogin-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.windowlogin-container{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 0px 200px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.windowlogin-box{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.windowlogin-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

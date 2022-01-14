@@ -1,0 +1,20 @@
+.header-box{
+    display:flex;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 7px 0 rgba(99, 89, 89, 0.2), 0 0px 200px 0 rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+.header-items{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 1200px;
+}

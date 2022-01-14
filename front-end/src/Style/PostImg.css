@@ -1,0 +1,30 @@
+.postimg-box{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 0px 200px 0 rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.postimg-img-box{
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 0px 200px 0 rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.postimg-img-box:hover{
+    cursor: pointer;
+}
+.postimg-img{
+    max-width:88%;
+    max-height:100%;
+}
+.postimg-box:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.companyaddstaff-container{
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 0px 200px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    width: 1200px;
+    height: 80px;
+    margin-bottom: 15px;
+}
